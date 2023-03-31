@@ -11,10 +11,9 @@
 	<slot />
 </div>
 
-<footer class="flex justify-center">
+<footer class="flex justify-center bg-pge-cinza-claro">
 	<img src={welcome_fallback} alt="Welcome" />
 </footer>
-<!-- h-min-80 h-screen -->
 
 <style>
 	.footer-adjust {
