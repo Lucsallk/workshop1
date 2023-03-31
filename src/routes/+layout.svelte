@@ -4,11 +4,20 @@
 </script>
 
 <nav class="flex bg-pge">
-	<h1 class="teste text-4xl font-semibold text-white py-4 px-6">SGRH</h1>
+	<a href="/" class="teste text-4xl font-semibold text-white py-3 px-6">SGRH</a>
 </nav>
 
-<slot />
+<div class="flex flex-col footer-adjust">
+	<slot />
+</div>
 
 <footer class="flex justify-center">
 	<img src={welcome_fallback} alt="Welcome" />
 </footer>
+<!-- h-min-80 h-screen -->
+
+<style>
+	.footer-adjust {
+		height: 80vh;
+	}
+</style>
